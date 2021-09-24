@@ -14,28 +14,28 @@ minify:
 
 defaultContentLanguage: fr
 languages:
-    en:
-        languageName: English
-        weight: 2
-        profileMode:
-            enabled: true
-            title: Antoine Brûlé
-            buttons:
-                - name: CV
-                  url: cv
-                - name: Projects
-                  url: projects
-        menu:
-            main:
-                - identifier: cv
-                  name: CV
-                  url: /cv
-                  weight: 10
-                - identifier: projects
-                  name: Projects
-                  url: /projects
-                  weight: 20
-        description: "Antoine Brûlé's personal website"
+    #en:
+    #    languageName: English
+    #    weight: 2
+    #    profileMode:
+    #        enabled: true
+    #        title: Antoine Brûlé
+    #        buttons:
+    #            - name: CV
+    #              url: cv
+    #            - name: Projects
+    #              url: projects
+    #    menu:
+    #        main:
+    #            - identifier: cv
+    #              name: CV
+    #              url: /cv
+    #              weight: 10
+    #            - identifier: projects
+    #              name: Projects
+    #              url: /projects
+    #              weight: 20
+    #    description: "Antoine Brûlé's personal website"
 
     fr:
         languageName: Français
