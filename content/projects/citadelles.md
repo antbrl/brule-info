@@ -3,7 +3,7 @@ title: "Citadelles"
 summary: "Version en ligne du célèbre jeu de plateau"
 description: "Version en ligne du célèbre jeu de plateau"
 cover:
-    image: "projects/img/citadelles.png"
+    image: "projects/img/citadelles.jpg"
 tags:
     - Websocket
     - VueJS
