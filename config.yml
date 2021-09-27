@@ -1,7 +1,10 @@
 baseURL: https://brule.info/
 languageCode: fr
 title: Antoine Brûlé
-theme: PaperMod
+copyright: "[Source](https://github.com/antbrl/brule-info)"
+theme:
+    - PaperMod
+    - PaperModExtended
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -64,13 +67,13 @@ params:
     env: production
     title: Antoine Brûlé
     keywords: [Blog, Portfolio, CV]
-    author: Antoine Brûlé
-    DateFormat: "January 2, 2006"
+    author: []
+    DateFormat: "January 2006"
     defaultTheme: light
     disableThemeToggle: true
 
-    ShowReadingTime: true
-    ShowShareButtons: true
+    ShowReadingTime: false
+    ShowShareButtons: false
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
