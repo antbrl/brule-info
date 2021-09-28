@@ -1,0 +1,211 @@
+.cv
+  .cv__page
+    .cv__header
+      .cv__header__text
+        h1 Antoine Brûlé
+        p Ingénieur logiciel junior spécialisé en systèmes d’information et informatique embarquée
+
+      .cv__header__photo
+        img(src='img/photo.jpg' alt='Antoine Brûlé')
+
+    .cv__body
+      .cv__main
+
+        table.cv__list
+          tr
+            th(colspan='2')
+              h2.cv__title.cv__title--green Formation
+
+          tr
+            td: div
+              span automne 2019
+              img(src='img/poly.png' alt='')
+            td
+              strong Semestre d’échange à Polytechnique Montréal
+              p Intelligence artificielle, architectures logicielles, codecs multimédias, principes de game design et développement d’IA de jeux vidéo
+              p: em Département de génie informatique et logiciel, Polytechnique Montréal, Québec, Canada
+
+          tr
+            td: div
+              span 2017 – 2020
+              img(src='img/ensimag.png' alt='')
+            td
+              strong Formation d’ingénieur logiciel – ENSIMAG
+              p Filière ingénierie des systèmes d’information
+              p: em École nationale supérieure d’informatique et de mathématiques appliquées, Grenoble, France
+
+          tr
+            td: div
+              span 2015 – 2017
+              img(src='img/iut-lr.jpg' alt='')
+            td
+              strong Diplôme Universitaire de Technologie (DUT) informatique
+              p Filière informatique embarquée
+              p: em Institut Universitaire de Technologie de La Rochelle, France
+
+          tr
+            th(colspan='2')
+              h2.cv__title.cv__title--pink Expériences
+
+          tr
+            td: div
+              span nov. 2020 – août 2021
+              img(src='img/?.png' alt='')
+            td
+              strong Mini-projets&nbsp;: exploration de nouvelles technologies et consolidation des acquis
+              span.cv__list__tags
+                span VueJS
+                span NodeJS
+                span WebSocket
+                span Rust
+                span Python
+                span C
+                span Godot
+              ul
+                li Portage d'un logiciel de montage vidéo collaboratif sur une interface web
+                li Participations à des événements #[em game jams]&nbsp;: création de jeux 2D en temps limité
+                li Implémentation de jeux de plateau en ligne&nbsp;: jeu d'échecs, #[em Citadelles]
+                li Création et programmation d'une horloge murale circulaire à affichage LED
+
+          tr
+            td: div
+              span avril – octobre 2020
+              img(src='img/dronisos.png' alt='')
+            td
+              strong Projet de fin d’études&nbsp;: portage du système Dronisos sur drones Pixhawk
+              span.cv__list__tags
+                span C++
+                span Buildroot
+                span Conan
+                span Docker
+              p: em Dronisos, Bordeaux, France
+              p Adaptation et réécriture du logiciel embarqué de chorégraphie sur drones lumineux Dronisos équipés de cartes de vol #[em open-hardware] Pixhawk.
+              p Ce projet a eu pour but d'étudier la faisabilité d'une transition vers de nouveaux modèles de drones afin d'étendre la capacité de la flotte Dronisos et remplacer les modèles arrivant en fin de vie.
+
+          tr
+            td: div
+              span juin – août 2019
+              img(src='img/mooveat.png' alt='')
+            td
+              strong Stage Assistant Ingénieur en start-up&nbsp;: application web sur le thème de l’alimentation durable
+              span.cv__list__tags
+                span Web
+                span Javascript
+                span Python
+              p: em Mooveat, Paris, France
+              p Développement d’une application VueJS interfacée avec une API Django REST destinée à l’INRA et aux collectivités locales. Cette application fournit des informations sur les producteurs et distributeurs de denrées alimentaires locales, géolocalisés sur une carte dynamique. Travail poursuivi après le stage en freelance.
+
+          tr
+            td: div
+              span février – mai 2019
+              img.faded(src='img/ribs.png' alt='')
+            td
+              strong Projet Ensimag – OS avancé&nbsp;: développement d’un système d’exploitation basique utilisant le jeu d’instructions RISC-V
+              span.cv__list__tags
+                span Assembleur
+                span C
+              p Amorçage, interfaçage avec le matériel, conception et implémentation du gestionnaire de mémoire virtuelle et de l’interface en ligne de commande, création de programmes de test.
+              p Voir la démonstration&nbsp;: #[a(href='https://frama.link/EnsimagRibsOS' target='_blank' rel='noopener noreferrer') frama.link/EnsimagRibsOS]
+
+          tr
+            td: div
+              span février – mai 2019
+              img.faded(src='img/fablab.png' alt='')
+            td
+              strong Projet Fablab Ensimag&nbsp;: caméra suiveuse d’un intervenant
+              span.cv__list__tags
+                span C
+                span C++
+                span Qt
+              p: em FabMSTIC, Université Grenoble-Alpes, Grenoble, France
+              p Fabrication et programmation d’un support de caméra suivant un intervenant. Pilotage utilisant le protocole VISCA (création d’un contrôleur Bluetooth) et vision par ordinateur avec OpenCV et YOLOv3.
+              p Plus d’infos&nbsp;: #[a(href='https://fablab.ensimag.fr/index.php?title=Amphi_connect%C3%A9' target='_blank' rel='noopener noreferrer') fablab.ensimag.fr/index.php?title=Amphi_connecté]
+
+          tr
+            td: div
+              span juillet 2017
+              img(src='img/cobalt.png' alt='')
+            td
+              strong Hackathon de 24 heures&nbsp;: Majordome 3.0
+              span.cv__list__tags
+                span Web
+                span Javascript
+              p: em Tiers-lieu numérique Cobalt, Poitiers, France
+              p Conception et implémentation d’une web app en équipe ayant pour but de suivre et gérer automatiquement la consommation des appareils d’un ménage.
+              p Gagnants du prix coup de cœur Enedis.
+
+          tr
+            td: div
+              span avril – juin 2017
+              img(src='img/nuig.png' alt='')
+            td
+              strong Stage professionnel sur le thème de la cybersécurité
+              span.cv__list__tags
+                span Linux
+                span Bash
+                span OpenVPN
+              p: em National University of Ireland, Galway, Irlande
+              p Implémentation d’un système d’information autonome et sécurisé avec mise à jour automatique des appareils et surveillance centralisée du réseau.
+
+          //-tr
+            td: div
+              span oct. 2016 – avr. 2017
+              img(src='img/panga.png' alt='')
+            td
+              strong Projet domotique&nbsp;: récupération de données de capteurs
+              span.cv__list__tags
+                span C++
+                span Qt
+              p: em Réalisé en collaboration avec Panga SAS, La Rochelle, France
+              p Implémentation de la communication entre capteurs utilisant les protocoles Z-Wave et MQTT pour suivre l’utilisation et la consommation d’appareils d’une habitation.
+
+      .cv__aside
+        .cv__aside__body
+          h2.cv__title.cv__title--yellow Compétences
+
+          h3 Langages et outils
+          ul
+            li Connaissances et expérience en C, C++, Java, Python, Bash, Rust
+            li Outils d’administration de systèmes Linux
+            li Développement de sites web&nbsp;:
+              ul
+                li HTML, CSS (Sass)
+                li Javascript/Typescript
+                li Frameworks&nbsp;: VueJS, Django
+
+            li Utilisation de systèmes de gestion de bases de données (No)SQL: Redis, PostgreSQL, OracleDB
+            li Intégration et déploiement continus (CI/CD)
+
+          h3 Principes et conception logicielle
+          ul
+            li Modélisation mathématique de problèmes
+            li Protocoles et administration réseau
+            li Gestion de clés cryptographiques, certificats et chiffrement
+            li Connaissance et implémentation de patrons de programmation orientée objet (OOP)
+            li Architectures logicielles
+            li Création d'interfaces graphiques, familiarité avec les problématiques UI/UX, d'internationalisation et d'accessibilité
+            li Méthodes et algorithmes pour l’intelligence artificielle
+
+          h3 Gestion de projet
+          ul
+            li Méthodologie agile (Kanban, Scrum)
+            li Méthodologie de tests, assurance qualité (TDD)
+            li Gestion de versions et collaboration (Git, revue par les pairs)
+
+          h3 Compétences linguistiques
+          ul
+            li Anglais professionnel et technique
+
+          h2.cv__title.cv__title--orange Centres d’intérêt
+          ul
+            li Implication dans des projets libres et open source (FOSS), participation associative
+            li Tennis, squash, vélo
+            li Typographie et composition graphique
+            li Cuisine et techniques culinaires
+            li Bricolage
+
+        .cv__contact
+          h2 Contactez-moi
+          div
+            p E-mail&nbsp;: #[b: a(href='mailto:antoine@brule.info') antoine@brule.info]
+            p.show-print → Retrouvez ce CV à jour et plus de détails sur #[b: a(href='https://brule.info/cv') brule.info/cv]

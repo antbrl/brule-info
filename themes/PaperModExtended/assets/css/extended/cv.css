@@ -357,7 +357,7 @@
 }
 
 @media print {
-    html, body {
+    html, body, .cv {
         font-size: 9px;
     }
 
