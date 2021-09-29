@@ -80,6 +80,22 @@
     display: block;
 }
 
+.cv__header__dl {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    background: #dfe6e9;
+}
+
+.cv__header__dl a {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    background: #0984e3;
+    color: #dfe6e9;
+    text-decoration: none;
+}
+
 .cv__body {
     display: flex;
     flex-direction: row-reverse;
@@ -395,6 +411,10 @@
     }
 
     .cv__header__photo::before {
+        display: none;
+    }
+
+    .cv__header__dl {
         display: none;
     }
 
