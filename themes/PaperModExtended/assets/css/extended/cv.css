@@ -2,6 +2,11 @@
     background: #74b9ff;
 }
 
+.cv__wrapper > .footer * {
+    color: white;
+    border-color: white;
+}
+
 .cv {
     margin: 0 1rem;
     font-size: 16px;
@@ -96,6 +101,7 @@
     background: #0984e3;
     color: #dfe6e9;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .cv__body {
