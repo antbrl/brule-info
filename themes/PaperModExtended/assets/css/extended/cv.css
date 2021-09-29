@@ -102,7 +102,6 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 0 2rem 0 0;
 }
 
 .cv__aside {
@@ -131,6 +130,7 @@
     margin-left: -2px;
     border: solid #74b9ff;
     border-width: 0 0 2px 2px;
+    width: max-content;
 }
 
 .cv__contact::before {
@@ -170,8 +170,7 @@
 }
 
 .cv__main {
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding: 0 2rem 1rem 1rem;
     margin-top: calc(-30% + 11rem);
     border-left: 1px solid #b2bec3;
 }
@@ -350,6 +349,17 @@
         margin-right: 0;
     }
 
+    .cv__header__text {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .cv__header__photo {
+        min-width: 8rem;
+    }
+
     .cv__body {
         display: block;
     }
@@ -360,7 +370,7 @@
 
     .cv__aside__body {
         padding-left: 2rem;
-        padding-right: 0;
+        padding-right: 2rem;
     }
 
     .cv__main {
@@ -369,14 +379,36 @@
         border-left: 0;
     }
 
+    .cv__contact {
+        border: 0;
+        margin: 0 auto -2px;
+        border-radius: 6px 6px 0 0;
+    }
+
     .cv__contact::before {
-        bottom: -4.5rem;
+        display: none;
     }
 }
 
 @media screen and (max-width: 700px) {
+    .cv {
+        margin: 0;
+    }
+
+    .cv__page {
+        box-shadow: none;
+        border-radius: unset;
+        border-width: 2px 0;
+    }
+
     .cv__header__photo {
         margin-bottom: 3rem;
+        border: 0;
+        border-top-left-radius: 0;
+    }
+
+    .cv__header__photo::before {
+        display: none;
     }
 
     .cv__header__text {
@@ -384,7 +416,7 @@
     }
 
     .cv__header__text h1 {
-        font-size: 2rem;
+        font-size: 8vw;
     }
 
     .cv__header__dl {
@@ -395,15 +427,16 @@
     }
 
     .cv__body {
-        padding-right: 1rem;
     }
 
     .cv__aside__body {
         padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .cv__main {
         padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .cv__list {
@@ -448,6 +481,10 @@
         margin: 0;
         background: none;
         color: black;
+    }
+
+    .cv {
+        margin: 0;
     }
 
     .cv__wrapper > header,
@@ -501,6 +538,7 @@
         padding: 0;
         margin: 0;
         margin-left: 2rem;
+        width: unset;
     }
 
     .cv__contact h2 {
