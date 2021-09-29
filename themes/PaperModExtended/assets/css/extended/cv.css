@@ -25,8 +25,9 @@
 }
 
 .cv__header {
+    position: relative;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -78,13 +79,14 @@
     width: 100%;
     border-radius: 100%;
     display: block;
+    aspect-ratio: 1;
+    background: #b3a394;
 }
 
 .cv__header__dl {
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
-    background: #dfe6e9;
 }
 
 .cv__header__dl a {
@@ -226,7 +228,7 @@
 }
 
 .cv__list td:first-child {
-    min-width: 11rem;
+    min-width: 7rem;
     position: relative;
 }
 
@@ -247,7 +249,6 @@
     text-align: right;
     letter-spacing: -0.8px;
     padding-bottom: 0.5rem;
-    padding-right: 0.5rem;
     align-self: stretch;
 }
 
@@ -297,6 +298,7 @@
     border-radius: 3px;
     margin: 0;
     padding: 0 0.4em;
+    font-size: 0.8rem;
 }
 
 .cv h3 {
@@ -372,9 +374,74 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .cv__header__photo {
+        margin-bottom: 3rem;
+    }
+
+    .cv__header__text {
+        padding: 1rem 1rem 0;
+    }
+
+    .cv__header__text h1 {
+        font-size: 2rem;
+    }
+
+    .cv__header__dl {
+        top: unset;
+        right: unset;
+        left: 0.5rem;
+        bottom: 0;
+    }
+
+    .cv__body {
+        padding-right: 1rem;
+    }
+
+    .cv__aside__body {
+        padding-left: 1rem;
+    }
+
+    .cv__main {
+        padding-left: 1rem;
+    }
+
+    .cv__list {
+        word-break: unset;
+    }
+
+    .cv__list td {
+        display: block;
+    }
+
+    .cv__list td:first-child {
+        padding: 0;
+        padding-right: 0.75rem;
+        float: left;
+        min-width: 0;
+        white-space: nowrap;
+    }
+
+    .cv__list td:first-child div {
+        position: static;
+    }
+
+    .cv__list td:first-child div span {
+        padding: 0;
+    }
+
+    .cv__list td:first-child img {
+        display: none;
+    }
+
+    .cv__list td p {
+        text-align: left;
+    }
+}
+
 @media print {
     html, body, .cv {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .cv__wrapper {
@@ -394,6 +461,7 @@
         margin: 1rem auto 0;
         padding-bottom: 0;
         box-shadow: none;
+        min-width: 85rem;
     }
 
     .cv__body {
