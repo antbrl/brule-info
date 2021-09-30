@@ -178,6 +178,7 @@
     padding: 0 2rem 1rem 1rem;
     margin-top: calc(-30% + 11rem);
     border-left: 1px solid #b2bec3;
+    z-index: 0;
 }
 
 .cv__title {
