@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embarqué on Antoine Brûlé</title>
+    <link>https://brule.info/tags/embarqu%C3%A9/</link>
+    <description>Recent content in Embarqué on Antoine Brûlé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>[Source](https://github.com/antbrl/brule-info)</copyright>
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brule.info/tags/embarqu%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RGB O&#39;Clock</title>
+      <link>https://brule.info/projects/rgb-o-clock/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/projects/rgb-o-clock/</guid>
+      <description>Horloge LED circulaire animée</description>
+    </item>
+    
+  </channel>
+</rss>

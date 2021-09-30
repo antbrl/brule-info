@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antoine Brûlé</title>
+    <link>https://brule.info/</link>
+    <description>Recent content on Antoine Brûlé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>[Source](https://github.com/antbrl/brule-info)</copyright>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brule.info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Citadelles</title>
+      <link>https://brule.info/projects/citadelles/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/projects/citadelles/</guid>
+      <description>Version en ligne du célèbre jeu de plateau</description>
+    </item>
+    
+    <item>
+      <title>Web-chess</title>
+      <link>https://brule.info/projects/web-chess/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/projects/web-chess/</guid>
+      <description>Jeu d&amp;#39;échecs en ligne fait avec Rust et VueJS</description>
+    </item>
+    
+    <item>
+      <title>RGB O&#39;Clock</title>
+      <link>https://brule.info/projects/rgb-o-clock/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/projects/rgb-o-clock/</guid>
+      <description>Horloge LED circulaire animée</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://brule.info/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/cv/</guid>
+      <description>Antoine Brûlé - Ingénieur logiciel junior spécialisé en systèmes d’information et informatique embarquée</description>
+    </item>
+    
+  </channel>
+</rss>

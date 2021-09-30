@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Antoine Brûlé</title>
+    <link>https://brule.info/tags/</link>
+    <description>Recent content in Tags on Antoine Brûlé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>[Source](https://github.com/antbrl/brule-info)</copyright>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brule.info/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Node</title>
+      <link>https://brule.info/tags/node/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VueJS</title>
+      <link>https://brule.info/tags/vuejs/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/tags/vuejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Websocket</title>
+      <link>https://brule.info/tags/websocket/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/tags/websocket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>https://brule.info/tags/rust/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://brule.info/tags/c/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embarqué</title>
+      <link>https://brule.info/tags/embarqu%C3%A9/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/tags/embarqu%C3%A9/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

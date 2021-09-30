@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VueJS on Antoine Brûlé</title>
+    <link>https://brule.info/tags/vuejs/</link>
+    <description>Recent content in VueJS on Antoine Brûlé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>[Source](https://github.com/antbrl/brule-info)</copyright>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brule.info/tags/vuejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Citadelles</title>
+      <link>https://brule.info/projects/citadelles/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/projects/citadelles/</guid>
+      <description>Version en ligne du célèbre jeu de plateau</description>
+    </item>
+    
+    <item>
+      <title>Web-chess</title>
+      <link>https://brule.info/projects/web-chess/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brule.info/projects/web-chess/</guid>
+      <description>Jeu d&amp;#39;échecs en ligne fait avec Rust et VueJS</description>
+    </item>
+    
+  </channel>
+</rss>
