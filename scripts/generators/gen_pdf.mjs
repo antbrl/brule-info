@@ -12,7 +12,7 @@ async function genPdf(serverUrl) {
   console.log(`Generating PDF (in=${inputUrl}, out=${outputFile})...`);
   return (async () => {
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: 'new',
       args: ['--font-render-hinting=none'],
     });
 
